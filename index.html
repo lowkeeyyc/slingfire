@@ -6,12 +6,10 @@
   </head>
   <body>
     
-    <a href="F:\PROGRAMMING PROJECTS\ROCK PAPER SCISSORS\ryker\index.html">
-       <button id="quit" type="button">Quit game?</button>
-    </a>
-    <a href="F:\PROGRAMMING PROJECTS\ROCK PAPER SCISSORS\slingfire\index.html">
+    
+       <button id="quit" type="button">Quit game?</button>   
       <button id="playAgain" type="button">Play Again?</button>
-    </a>
+    
   
 
     <script src="matter.js"></script>
@@ -31,6 +29,7 @@
     
         playAgainButton.addEventListener('click', () => {
           playAgain();
+          window.location.reload();
         });
 
       }});
