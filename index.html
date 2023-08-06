@@ -22,17 +22,18 @@
 
         quitGameButton.addEventListener('click', () => {
           quitGame();
-        })
+        });
+         playAgainButton.addEventListener('click', () => {
+          playAgain();
+        });
 
         function quitGame(){
           alert("So Sad that you're leaving! \n Come back soon!") ;
-    
-        playAgainButton.addEventListener('click', () => {
-          playAgain();
+        }
+        function play_again(){
           window.location.reload();
-        });
-
-      }});
+        }
+      });
     </script>
     
     <script>
